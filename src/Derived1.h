@@ -2,7 +2,7 @@
 
 #include "Base.h"
 
-struct Derived1 : Base {
+struct Derived1 final: Base {
 public:
     void do_something() override;
 };
